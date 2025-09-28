@@ -7,11 +7,11 @@ public class Main {
     {
             // Задание номер 1
             System.out.println("Задача 1");
-            String firstName = "Andrey";
-            String middleName = "Andreevich";
-            String lastName = "Andreev";
+            String firstName = "Ivan";
+            String middleName = "Ivanovich";
+            String lastName = "Ivanov";
 
-            String fullName = firstName + " " + middleName + " " + lastName;
+            String fullName = lastName + " " + firstName + " " + middleName;
             System.out.println("Ф.И.О. сотрудника - " + fullName);
     }
     {
@@ -23,7 +23,7 @@ public class Main {
     }
             // Задание номер 3
             System.out.println("Задача 3");
-            String fullName = "Иванов Артём Артёмович";
+            String fullName = "Иванов Семён Семёнович";
 
             String correctedFullName = fullName.replace('ё', 'е');
 
